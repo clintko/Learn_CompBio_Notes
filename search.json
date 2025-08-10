@@ -1,0 +1,28 @@
+[
+  {
+    "objectID": "chapter_deeplearn_genomics/test.html",
+    "href": "chapter_deeplearn_genomics/test.html",
+    "title": "About this page",
+    "section": "",
+    "text": "About this page",
+    "crumbs": [
+      "Home",
+      "Deep learning in genomics",
+      "About this page"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Learn_CompBio_Notes",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  }
+]
