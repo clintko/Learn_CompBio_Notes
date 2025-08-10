@@ -1,22 +1,35 @@
 project:
   type: website
-  output-dir: ../docs
+
+resources:
+  - figure/**
+  - table/**
 
 website:
   title: "Learn_CompBio_Notes"
   navbar:
+    background: primary
+    foreground: light
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+  sidebar:
+      style: "docked"
+      search: true
+      collapse-level: 1
+      contents:
+        - section: "Deep learning in genomics"
+          contents: chapter_deeplearn_genomics/*
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: cosmo
     css: styles.css
     toc: true
+    grid:
+      sidebar-width: 350px
+
 
 
 
